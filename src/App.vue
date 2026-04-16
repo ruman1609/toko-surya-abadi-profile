@@ -9,3 +9,8 @@
 </template>
 
 <style scoped></style>
+<template>
+  <BaseLayout>
+    <StoreProfile />
+  </BaseLayout>
+</template>
