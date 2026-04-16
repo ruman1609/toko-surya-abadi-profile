@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
+@layer base {
+  /* Base layer styles */
+}
+
+@layer components {
+  /* Component layer styles */
+}
+
+@layer pages {
+  /* Page layer styles */
+}
+ 
+@layer utilities {
+  /* Utility layer styles */
+}

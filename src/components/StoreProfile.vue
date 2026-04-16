@@ -29,20 +29,11 @@
   </div>
 </template>
 
-<script>
-import ProductCategory from './ProductCategory.vue';
+<script setup lang="ts">
+import { ref } from 'vue'
 
-export default {
-  components: {
-    ProductCategory
-  },
-  data() {
-    return {
-      categories: [
-        'Beras', 'Minyak', 'Air', 'Gula', 'Tepung',
-        'Bumbu-bumbuan', 'Makanan ringan', 'Rokok'
-      ]
-    }
-  }
-}
+const categories = ref([
+  'Beras', 'Minyak', 'Air', 'Gula', 'Tepung',
+  'Bumbu-bumbuan', 'Makanan ringan', 'Rokok'
+])
 </script>
