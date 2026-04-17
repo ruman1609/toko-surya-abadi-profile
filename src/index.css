@@ -1,19 +1,95 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
- 
-@layer base {
-  /* Base layer styles */
+@import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-primary: #6f5d0e;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #fae287;
+  --color-on-primary-container: #544600;
+
+  --color-secondary: #904a45;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #ffdad6;
+  --color-on-secondary-container: #73332f;
+
+  --color-tertiary: #44664e;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #c6eccd;
+  --color-on-tertiary-container: #2d4e37;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  /* Surface & UI */
+  --color-background: #fafbfa;
+  --color-on-background: #171d19;
+  --color-surface: #fafbfa;
+  --color-on-surface: #171d19;
+  --color-surface-variant: #dfe4d7;
+  --color-on-surface-variant: #43483e;
+  --color-outline: #73796d;
+  --color-outline-variant: #c3c8bb;
+  --color-scrim: #000000;
+
+  /* Inverse */
+  --color-inverse-surface: #2c322e;
+  --color-inverse-on-surface: #edf2ec;
+  --color-inverse-primary: #ddc66e;
+
+  /* Surface Containers */
+  --color-surface-dim: #d6dbd5;
+  --color-surface-bright: #f5fbf5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f0f5ef;
+  --color-surface-container: #eaefe9;
+  --color-surface-container-high: #e4eae3;
+  --color-surface-container-highest: #dee4de;
 }
 
-@layer components {
-  /* Component layer styles */
-}
+/* Dark Mode Overrides */
+@variant dark (&:where(.dark, .dark *)) {
+  @theme {
+    --color-primary: #ddc66e;
+    --color-on-primary: #3a3000;
+    --color-primary-container: #544600;
+    --color-on-primary-container: #fae287;
 
-@layer pages {
-  /* Page layer styles */
-}
- 
-@layer utilities {
-  /* Utility layer styles */
+    --color-secondary: #ffb3ac;
+    --color-on-secondary: #571e1a;
+    --color-secondary-container: #73332f;
+    --color-on-secondary-container: #ffdad6;
+
+    --color-tertiary: #aad0b2;
+    --color-on-tertiary: #153722;
+    --color-tertiary-container: #2d4e37;
+    --color-on-tertiary-container: #c6eccd;
+
+    --color-error: #ffb4ab;
+    --color-on-error: #690005;
+    --color-error-container: #93000a;
+    --color-on-error-container: #ffdad6;
+
+    --color-background: #0f1511;
+    --color-on-background: #dee4de;
+    --color-surface: #0f1511;
+    --color-on-surface: #dee4de;
+    --color-surface-variant: #43483e;
+    --color-on-surface-variant: #c3c8bb;
+    --color-outline: #8d9287;
+    --color-outline-variant: #43483e;
+
+    --color-inverse-surface: #dee4de;
+    --color-inverse-on-surface: #2c322e;
+    --color-inverse-primary: #6f5d0e;
+
+    --color-surface-dim: #0f1511;
+    --color-surface-bright: #353b36;
+    --color-surface-container-lowest: #0a0f0c;
+    --color-surface-container-low: #171d19;
+    --color-surface-container: #1b211d;
+    --color-surface-container-high: #262b27;
+    --color-surface-container-highest: #303632;
+  }
 }
