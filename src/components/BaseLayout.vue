@@ -1,6 +1,6 @@
 <template>
-  <div class="min-h-screen bg-gray-100">
-    <nav class="bg-white shadow-lg">
+  <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+    <nav class="bg-surface-50 dark:bg-gray-800 shadow-lg rounded-t-md border-b-2 border-primary">
       <div class="max-w-6xl mx-auto px-4">
         <div class="flex justify-between items-center py-4">
           <h1 class="text-2xl font-bold text-blue-600">Toko Surya Abadi</h1>
@@ -15,7 +15,7 @@
       <slot></slot>
     </main>
 
-    <footer class="bg-gray-800 text-white mt-8">
+    <footer class="bg-gray-900 text-white mt-8 border-t-2 border-primary">
       <div class="max-w-6xl mx-auto px-4 py-4">
         <p>&copy; 2023 Toko Surya Abadi. All rights reserved.</p>
       </div>
