@@ -24,6 +24,10 @@
 </template>
 
 <script setup lang="ts">
+defineProps<{
+  isSnap?: boolean
+}>()
+
 const date = new Date();
 const year = date.getFullYear();
 </script>
