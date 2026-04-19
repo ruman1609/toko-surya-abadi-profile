@@ -32,6 +32,14 @@
             </section>
             <section class="mt-6 bg-surface-100 dark:bg-gray-700 p-6 rounded-md">
               <h3 class="text-xl font-semibold mb-4 text-primary dark:text-secondary">
+                Sejarah dan Latar Belakang
+              </h3>
+              <p class="text-gray-600 dark:text-gray-300">
+                Toko Surya Abadi didirikan pada tahun 2011 oleh Anton Rachman (Iwan). Sejak berdiri, toko ini telah menjadi mitra terpercaya masyarakat Samarinda dalam memenuhi kebutuhan sehari-hari. Dengan komitmen terhadap kualitas produk dan pelayanan yang baik, Toko Surya Abadi terus berkembang untuk memberikan pengalaman belanja yang nyaman dan bermakna bagi setiap pelanggan.
+              </p>
+            </section>
+            <section class="mt-6 bg-surface-100 dark:bg-gray-700 p-6 rounded-md">
+              <h3 class="text-xl font-semibold mb-4 text-primary dark:text-secondary">
                 Lokasi
               </h3>
               <p class="text-gray-600 dark:text-gray-300">
@@ -91,14 +99,6 @@
             <h2 class="text-3xl font-bold mb-4">Katalog Produk Utama</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <ProductCategory v-for="category in categories" :key="category" :name="category" />
-            </div>
-            <div class="mt-6 bg-surface-100 dark:bg-gray-700 p-6 rounded-md">
-              <h3 class="text-xl font-semibold mb-4 text-primary dark:text-secondary">
-                Sejarah dan Latar Belakang
-              </h3>
-              <p class="text-gray-600 dark:text-gray-300">
-                Toko Surya Abadi didirikan pada tahun 2011 oleh Anton Rachman (Iwan). Sejak berdiri, toko ini telah menjadi mitra terpercaya masyarakat Samarinda dalam memenuhi kebutuhan sehari-hari. Dengan komitmen terhadap kualitas produk dan pelayanan yang baik, Toko Surya Abadi terus berkembang untuk memberikan pengalaman belanja yang nyaman dan bermakna bagi setiap pelanggan.
-              </p>
             </div>
           </div>
         </div>
