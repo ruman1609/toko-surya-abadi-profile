@@ -23,7 +23,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const date = new Date();
 const year = date.getFullYear();
 </script>
