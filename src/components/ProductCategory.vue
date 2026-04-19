@@ -10,7 +10,10 @@
         {{ name }}
       </h3>
       <p class="text-gray-600 dark:text-gray-300">
-        Ketersediaan barang bisa berubah, silakan hubungi nomor kontak untuk informasi terbaru.
+        {{ getDescription(name) }}
+      </p>
+      <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">
+        Produk ini merupakan bagian dari kategori kebutuhan pokok dan harian.
       </p>
     </div>
   </div>
@@ -23,4 +26,14 @@ defineProps({
     required: true
   }
 })
+
+const getDescription = (category: string) => {
+  const descriptions: Record<string, string> = {
+    'Bahan Pangan Pokok': 'Berbagai jenis beras, minyak goreng, gula, dan tepung untuk kebutuhan pokok rumah tangga.',
+    'Kebutuhan Dapur': 'Berbagai macam bumbu-bumbuan untuk memasak yang lengkap dan berkualitas.',
+    'Minuman & Konsumsi': 'Air mineral serta aneka makanan ringan (snack) untuk kebutuhan harian.',
+    'Produk Lainnya': 'Berbagai merek rokok yang tersedia di toko kami.'
+  }
+  return descriptions[category] || 'Ketersediaan barang bisa berubah, silakan hubungi nomor kontak untuk informasi terbaru.'
+}
 </script>

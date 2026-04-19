@@ -1,47 +1,44 @@
-# Toko Surya Abadi
+# Profil Perusahaan: Toko Surya Abadi
 
-## 1. Identitas Bisnis
+## 1. Tentang Kami
+Toko Surya Abadi adalah penyedia kebutuhan pokok dan harian terpercaya yang melayani masyarakat di Kota Samarinda sejak tahun 2011. Didirikan oleh Bapak Anton Rachman (Iwan), kami berdedikasi untuk memberikan kemudahan bagi warga sekitar dalam mengakses barang kebutuhan sehari-hari dengan pelayanan yang personal dan jujur.
 
-- **Nama Toko:** Toko Surya Abadi
-- **Nama Pemilik:** Anton Rachman (Panggilan: Iwan)
-- **Tahun Berdiri:** 2011
-- **Alamat Lengkap:** Jl. D.I. Panjaitan No. 6, Sungai Pinang Dalam, Kec. Sungai Pinang, Kota Samarinda, Kalimantan Timur 75117
-- **Kontak:** +62-812-581-0410
+### Visi
+Menjadi toko penyedia kebutuhan harian utama di Samarinda yang dikenal karena kelengkapan produk dan keandalan pelayanannya.
 
-## 2. Sejarah dan Latar Belakang
+### Misi
+* Konsisten menyediakan barang kebutuhan pokok berkualitas bagi rumah tangga.
+* Memberikan pengalaman belanja yang nyaman dengan sistem operasional yang teratur.
+* Membangun kepercayaan pelanggan melalui transparansi harga dan metode pembayaran yang fleksibel.
 
-Toko Surya Abadi didirikan pada tahun 2011 oleh Anton Rachman (Iwan). Toko ini beroperasi sebagai penyedia barang kebutuhan pokok dan harian bagi masyarakat di area Samarinda.
+## 2. Katalog Produk Utama
+Kami menyediakan berbagai kategori produk untuk memenuhi kebutuhan dapur dan rumah tangga Anda:
 
-## 3. Daftar Produk Utama
+* **Bahan Pangan Pokok:** Beras, Minyak Goreng, Gula, dan Tepung.
+* **Kebutuhan Dapur:** Berbagai macam bumbu-bumbuan untuk memasak.
+* **Minuman & Konsumsi:** Air mineral serta aneka makanan ringan (snack).
+* **Produk Lainnya:** Tersedia berbagai merek rokok.
 
-Toko ini fokus menjual barang-barang kebutuhan sehari-hari, meliputi:
+*Catatan: Stok dan ketersediaan merek tertentu dapat berubah sewaktu-waktu. Pelanggan disarankan untuk menghubungi kontak kami untuk konfirmasi ketersediaan barang spesifik.*
 
-- Beras
-- Minyak
-- Air
-- Gula
-- Tepung
-- Bumbu-bumbuan
-- Makanan ringan (snack)
-- Rokok
+## 3. Informasi Operasional & Pembayaran
+Untuk kenyamanan pelanggan, kami beroperasi dengan pembagian sesi agar pelayanan tetap optimal setiap harinya.
 
-_(Instruksi internal untuk AI: Jika pengguna menanyakan detail merek tertentu atau barang di luar daftar ini, informasikan bahwa ketersediaan bisa berubah dan sarankan untuk menghubungi nomor kontak toko)._
+### Jam Buka (WITA)
+* **Senin - Sabtu:**
+  * Sesi Pagi: 09.30 – 12.00
+  * Istirahat: 12.00 – 13.30
+  * Sesi Sore: 13.30 – 18.00
+* **Minggu:** Tutup
 
-## 4. Jam Operasional
+### Metode Pembayaran
+Kami menerima dua cara pembayaran untuk memudahkan transaksi Anda:
+1. **Tunai (Cash)**
+2. **Transfer Bank**
 
-Toko beroperasi dengan sistem dua sesi (jeda istirahat siang) setiap harinya. Waktu dalam zona WITA.
+## 4. Hubungi Kami
+Silakan kunjungi lokasi kami atau hubungi nomor di bawah ini untuk layanan lebih lanjut:
 
-- **Senin:** 09.30 – 12.00 & 13.30 – 18.00
-- **Selasa:** 09.30 – 12.00 & 13.30 – 18.00
-- **Rabu:** 09.30 – 12.00 & 13.30 – 18.00
-- **Kamis:** 09.30 – 12.00 & 13.30 – 18.00
-- **Jumat:** 09.30 – 12.00 & 13.30 – 18.00
-- **Sabtu:** 09.30 – 12.00 & 13.30 – 18.00
-- **Minggu:** Tutup
-
-## 5. Kebijakan Pembayaran
-
-Transaksi di Toko Surya Abadi dapat dilakukan melalui dua metode:
-
-- Tunai (Cash)
-- Transfer Bank
+* **Alamat:** Jl. D.I. Panjaitan No. 6, Sungai Pinang Dalam, Kec. Sungai Pinang, Kota Samarinda, Kalimantan Timur 75117.
+* **Kontak (WhatsApp/Telp):** +62-812-581-0410
+* **Navigasi:** [Klik di sini untuk melihat lokasi di Google Maps](https://www.google.com/maps?q=-0.4725357,117.1705662)

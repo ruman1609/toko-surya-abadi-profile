@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 @theme {
   /* Brand Colors */
   --color-primary: #6f5d0e;
@@ -49,8 +51,8 @@
 }
 
 /* Dark Mode Overrides */
-@variant dark (&:where(.dark, .dark *)) {
-  @theme {
+@layer theme {
+  .dark {
     --color-primary: #ddc66e;
     --color-on-primary: #3a3000;
     --color-primary-container: #544600;
