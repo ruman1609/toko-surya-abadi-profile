@@ -1,20 +1,27 @@
 <template>
   <div 
-    class="p-4 md:p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md border-2 border-primary transition-all hover:border-secondary hover:bg-gray-50 dark:hover:bg-gray-700"
+    class="p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 transition-all duration-300 hover:shadow-xl hover:border-primary dark:hover:border-secondary hover:-translate-y-1"
     data-theme="light"
   >
-    <div class="space-y-3 md:space-y-4">
-      <h3 
-        class="text-lg md:text-xl font-semibold capitalize text-primary dark:text-secondary"
-      >
-        {{ name }}
-      </h3>
-      <p class="text-gray-600 dark:text-gray-300 text-sm md:text-base">
+    <div class="space-y-4">
+      <div class="flex items-center justify-between">
+        <h3 
+          class="text-xl font-bold capitalize text-primary dark:text-secondary"
+        >
+          {{ name }}
+        </h3>
+        <div class="w-10 h-10 rounded-full bg-primary/10 dark:bg-secondary/10 flex items-center justify-center">
+          <span class="text-primary dark:text-secondary text-lg">📦</span>
+        </div>
+      </div>
+      <p class="text-gray-600 dark:text-gray-300 text-base leading-relaxed">
         {{ getDescription(name) }}
       </p>
-      <p class="text-xs md:text-sm text-gray-500 dark:text-gray-400 mt-2">
-        Produk ini merupakan bagian dari kategori kebutuhan pokok dan harian.
-      </p>
+      <div class="pt-2 border-t border-gray-100 dark:border-gray-700">
+        <p class="text-xs text-gray-500 dark:text-gray-400">
+          Ketersediaan barang bisa berubah, silakan hubungi nomor kontak untuk informasi terbaru.
+        </p>
+      </div>
     </div>
   </div>
 </template>
