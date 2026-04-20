@@ -39,31 +39,44 @@
             </ul>
           </div>
 
-          <!-- Jam Operasional -->
-          <div class="bg-white dark:bg-gray-700 p-6 md:p-8 rounded-xl shadow-md">
-            <h3 class="text-xl md:text-2xl font-semibold mb-4 text-primary dark:text-secondary flex items-center">
-              <span class="mr-3">⏰</span> Jam Operasional
-            </h3>
-            <ul class="space-y-2 text-gray-600 dark:text-gray-300 text-base md:text-lg">
-              <li class="flex justify-between">
-                <span>Senin - Sabtu:</span>
-                <span class="font-medium">09:30 - 12:00 & 13:30 - 18:00</span>
-              </li>
-              <li class="flex justify-between">
-                <span>Minggu:</span>
-                <span class="font-medium text-red-500">Tutup</span>
-              </li>
-            </ul>
-          </div>
+          <!-- Lokasi & Jam Operasional -->
+          <div class="md:col-span-2 bg-white dark:bg-gray-700 p-6 md:p-8 mb-4 rounded-xl shadow-md">
+            <div class="flex flex-col md:flex-row gap-8">
+              <!-- Lokasi -->
+              <div class="md:w-1/2">
+                <h3 class="text-xl md:text-2xl font-semibold mb-4 text-primary dark:text-secondary flex items-center">
+                  <span class="mr-3">📍</span> Lokasi
+                </h3>
+                <div class="w-full h-64 md:h-80 rounded-lg overflow-hidden shadow-sm mb-4">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.888888888889!2d117.1817077!3d-0.4620274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df5d6039f656407%3A0xd5b7f1e3e3850f7!2sToko%20Surya%20Abadi!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+                    width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+                <p class="text-gray-600 dark:text-gray-300 text-base md:text-lg leading-relaxed">
+                  Jl. D.I. Panjaitan No. 6, Sungai Pinang Dalam, Kec. Sungai Pinang, Kota Samarinda, Kalimantan Timur
+                  75117
+                </p>
+              </div>
 
-          <!-- Lokasi -->
-          <div class="bg-white dark:bg-gray-700 p-6 md:p-8 rounded-xl shadow-md">
-            <h3 class="text-xl md:text-2xl font-semibold mb-4 text-primary dark:text-secondary flex items-center">
-              <span class="mr-3">📍</span> Lokasi
-            </h3>
-            <p class="text-gray-600 dark:text-gray-300 text-base md:text-lg leading-relaxed">
-              Jl. D.I. Panjaitan No. 6, Sungai Pinang Dalam, Kec. Sungai Pinang, Kota Samarinda, Kalimantan Timur 75117
-            </p>
+              <!-- Jam Operasional -->
+              <div class="md:w-1/2">
+                <h3 class="text-xl md:text-2xl font-semibold mb-4 text-primary dark:text-secondary flex items-center">
+                  <span class="mr-3">⏰</span> Jam Operasional
+                </h3>
+                <ul class="space-y-2 text-gray-600 dark:text-gray-300 text-base md:text-lg">
+                  <li class="flex justify-between">
+                    <span>Senin - Sabtu:</span>
+                    <span class="font-medium">09:30 - 12:00 & 13:30 - 18:00</span>
+                  </li>
+                  <li class="flex justify-between">
+                    <span>Minggu:</span>
+                    <span class="font-medium text-red-500">Tutup</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
