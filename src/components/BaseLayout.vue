@@ -8,6 +8,10 @@
         <h1 class="text-lg md:text-2xl font-bold tracking-tight">Toko Surya Abadi</h1>
       </div>
       <div class="space-x-2 md:space-x-4">
+        <router-link to="/check-stock"
+          class="text-on-primary hover:text-on-primary/80 text-sm md:text-base font-medium transition-colors">
+          Check Stock
+        </router-link>
         <a href="https://wa.me/628125810410"
           class="text-on-primary hover:text-on-primary/80 text-sm md:text-base font-medium transition-colors">
           Kontak: +62-812-581-0410
