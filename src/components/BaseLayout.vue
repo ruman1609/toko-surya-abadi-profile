@@ -1,6 +1,7 @@
 <template>
-  <div class="flex flex-col min-h-screen bg-surface dark:bg-surface-container">
-    <nav class="bg-primary text-on-primary py-4 px-6 flex items-center justify-between">
+  <div class="flex flex-col bg-surface dark:bg-surface-container overflow-hidden"
+    :class="isSnap ? 'h-screen' : 'min-h-screen'">
+    <nav class="bg-primary text-on-primary py-4 px-6 flex items-center justify-between sticky top-0 z-50">
       <div class="flex items-center">
         <img src="/src/assets/logo.png" alt="Logo" class="h-10 w-auto mr-4" />
         <h1 class="text-2xl font-bold">Toko Surya Abadi</h1>
@@ -11,22 +12,25 @@
       </div>
     </nav>
 
-    <main class="grow max-w-6xl mx-auto px-4 py-8">
+    <main :class="['grow', isSnap ? 'snap-y snap-mandatory overflow-y-auto' : 'overflow-y-auto']">
       <slot></slot>
-    </main>
 
-    <footer class="bg-primary text-on-primary mt-auto border-t-2 border-on-primary">
-      <div class="max-w-6xl mx-auto px-4 py-4">
-        <p>&copy; {{ year }} Toko Surya Abadi. All rights reserved.</p>
-      </div>
-    </footer>
+      <footer class="bg-primary text-on-primary mt-auto border-t-2 border-on-primary" :class="isSnap ? 'snap-end' : ''">
+        <div class="mx-auto px-4 py-4">
+          <p>&copy; {{ year }} Toko Surya Abadi. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
   </div>
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  isSnap?: boolean
-}>()
+interface Props {
+  isSnap: boolean
+}
+withDefaults(defineProps<Props>(), {
+  isSnap: false
+})
 
 const date = new Date();
 const year = date.getFullYear();

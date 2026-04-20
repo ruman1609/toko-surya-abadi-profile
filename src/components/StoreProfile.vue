@@ -1,8 +1,7 @@
 <template>
-  <div class="min-h-screen bg-surface-50 dark:bg-gray-800">
-
+  <div class=" mx-auto px-4 py-8 min-h-screen bg-surface-50 dark:bg-gray-800">
     <!-- About Us Section -->
-    <section class="h-screen flex flex-col items-center justify-center">
+    <section class="h-screen flex flex-col items-center justify-center snap-start">
       <h2 class="text-3xl font-bold text-primary dark:text-secondary mb-4 text-center">
         Tentang Kami
       </h2>
@@ -59,7 +58,7 @@
     </section>
 
     <!-- Facility Section -->
-    <section class="h-screen flex items-center justify-center">
+    <section class="h-screen flex items-center justify-center snap-start">
       <div class="max-w-6xl mx-auto px-4">
         <div class="space-y-6">
           <h2 class="text-3xl font-bold text-primary dark:text-secondary mb-6">
@@ -89,7 +88,7 @@
     </section>
 
     <!-- Payment Policy Section -->
-    <section class="h-screen flex items-center justify-center">
+    <section class="h-screen flex items-center justify-center snap-start">
       <div class="max-w-6xl mx-auto px-4">
         <div class="space-y-6">
           <h2 class="text-3xl font-bold text-primary dark:text-secondary mb-6">
@@ -107,7 +106,7 @@
     </section>
 
     <!-- Product Catalog Section -->
-    <section class="h-screen flex items-center justify-center">
+    <section class="h-screen flex items-center justify-center snap-start">
       <div class="max-w-6xl mx-auto px-4">
         <div class="space-y-6">
           <h2 class="text-3xl font-bold mb-4">Katalog Produk Utama</h2>
