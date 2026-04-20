@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col bg-surface dark:bg-surface-container overflow-hidden"
     :class="isSnap ? 'h-screen' : 'min-h-screen'">
-    <nav class="bg-primary text-on-primary py-4 px-6 flex items-center justify-between sticky top-0 z-50">
+    <nav class="bg-primary text-on-primary py-4 px-6 flex items-center justify-between fixed top-0 z-50">
       <div class="flex items-center">
         <img src="/src/assets/logo.png" alt="Logo" class="h-10 w-auto mr-4" />
         <h1 class="text-2xl font-bold">Toko Surya Abadi</h1>
