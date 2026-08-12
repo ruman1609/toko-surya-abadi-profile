@@ -1,23 +1,23 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import StoreProfilePage from '@/views/StoreProfilePage.vue'
-import CheckStockPage from '@/views/CheckStockPage.vue'
+import { createRouter, createWebHistory } from "vue-router";
+import StoreProfilePage from "@/views/StoreProfilePage.vue";
+import CheckStockPage from "@/views/CheckStockPage.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'StoreProfile',
-    component: StoreProfilePage
+    path: "/",
+    name: "StoreProfile",
+    component: StoreProfilePage,
   },
   {
-    path: '/check-stock',
-    name: 'CheckStock',
-    component: CheckStockPage
-  }
-]
+    path: "/check-stock",
+    name: "CheckStock",
+    component: CheckStockPage,
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
