@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tokosuryaabadi.nagabirulangit.com/sitemap.xml
